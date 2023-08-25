@@ -15,5 +15,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blog.settings')
 
 application = get_wsgi_application()
 
-# vercel configuration/ brigding connection to vercel app
-app = application
+
